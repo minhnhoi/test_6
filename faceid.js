@@ -1,6 +1,6 @@
 // faceid.js
 
-const API_URL = "http://localhost:3000"; // same-origin (đỡ lỗi localhost trên điện thoại/host)
+const API_URL = ""; // same-origin (đỡ lỗi localhost trên điện thoại/host)
 // const API_URL = "";
 
 const guideEl = document.getElementById("guide-text");
@@ -1033,5 +1033,6 @@ function startCameraPipeline() {
     buom.x = Math.min(buom.x, window.innerWidth - 100);
   });
 })();
+
 
 initSystem();
