@@ -1,5 +1,5 @@
 // access.js
-const API_URL = "http://localhost:3000"; // same-origin (đỡ lỗi localhost trên điện thoại/host)
+const API_URL = ""; // same-origin (đỡ lỗi localhost trên điện thoại/host)
 
 
 const els = {
@@ -500,4 +500,5 @@ els.chatText.addEventListener("keydown", (e) => {
     "assistant",
     "Xin chào Admin. Mở tab MongoDB để xem log, hoặc hỏi mình về truy cập đáng ngờ."
   );
+
 })();
